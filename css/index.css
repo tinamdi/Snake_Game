@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: 0;
+}
+#gameContainer{
+    text-align: center;
+    margin-top: 50px;
+}
+#gameBoard{
+    border: 3px solid black;
+    box-shadow: black 20px 20px 50px;
+}
+#scoreText{
+    font-family: monospace;
+    font-size: 100px;
+}
+#resetBtn{
+    font-family: monospace;
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+    border: 4px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
